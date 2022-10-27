@@ -15,6 +15,6 @@
   },
   "dependencies": {
     "solid-js": "^1.5.1",
-    "split-pane": "file:.."
+    "solid-split-pane": "file:.."
   }
 }

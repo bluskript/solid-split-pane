@@ -16,7 +16,7 @@ npm i solid-split-pane
 ```jsx
 import { SplitPane } from "solid-split-pane";
 
-export const App = () => {
+export const App = () => (
   <div style="display: flex">
     <SplitPane>
       <div>
@@ -27,5 +27,10 @@ export const App = () => {
       </div>
     </SplitPane>
   </div>;
-};
+);
 ```
+
+## Options
+
+Any options that [Split.JS](https://split.js.org/#/) takes.
+Gutter class is customizeable through a `gutterClass` prop!

@@ -1,6 +1,6 @@
 {
   "name": "solid-split-pane",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Split pane component for Solid!",
   "main": "./dist/split-pane.umd.js",
   "module": "./dist/split-pane.es.js",
