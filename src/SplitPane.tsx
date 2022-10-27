@@ -5,12 +5,12 @@ import {
   ParentComponent,
   splitProps,
 } from "solid-js";
-import split from "split.js";
+import split, { Options } from "split.js";
 
 export const SplitPane: ParentComponent<
   {
     gutterClass?: string;
-  } & Split.Options
+  } & Options
 > = (props) => {
   const c = children(() => props.children);
 
