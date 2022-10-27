@@ -1,9 +1,13 @@
 {
   "name": "solid-split-pane",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Split pane component for Solid!",
   "main": "./dist/split-pane.umd.js",
   "module": "./dist/split-pane.es.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bluskript/solid-split-pane"
+  },
   "exports": {
     ".": {
       "import": "./dist/split-pane.es.js",
